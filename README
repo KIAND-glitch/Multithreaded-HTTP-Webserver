@@ -1,3 +1,12 @@
+# COMP30023 - Project 2
+Project 2 for COMP30023 - Computer Systems.
+
+## Overview
+The aim of this project was to be familiar with socket programming, multi-threading, and the HTTP protocol.
+
+The basic implementation of the server involves creating and binding a socket and then waiting for clients to connect. Upon connection, a new socket is created and requests are servered accordingly.
+
+
 The webroot used in testing can be found under www/.
 
 To test, you should run the server in the background and then make requests using a client of your
